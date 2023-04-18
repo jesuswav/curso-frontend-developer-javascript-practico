@@ -92,6 +92,11 @@ productList.push({
     price: 220,
     image: 'https://images.pexels.com/photos/2528118/pexels-photo-2528118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 });
+productList.push({
+    name: 'Celular',
+    price: 180,
+    image: 'https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+});
 
 
 function renderProducts(arr) {
