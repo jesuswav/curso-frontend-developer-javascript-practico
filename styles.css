@@ -12,6 +12,11 @@ body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
 }
+
+.inactive {
+    display: none;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -53,6 +58,7 @@ nav {
     color: var(--hospital-green);
 }
 .navbar-email {
+    cursor: pointer;
     color: var(--very-light-pink);
     font-size: var(--sm);
     margin-right: 12px;
@@ -78,6 +84,8 @@ nav {
 /* Estilos del dektop-menu */
 .desktop-menu {
     position: absolute;
+    top: 59px;
+    right: 60px;
     background: var(--white);
     width: 100px;
     height: auto;
